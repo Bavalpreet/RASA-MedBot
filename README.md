@@ -8,11 +8,12 @@ Moving into the second phase, MediBot engages users by prompting them to input t
 
 This unique approach assists users in gaining further confidence and certainty about their health conditions. By reading the chatbot's responses and discovering that they are experiencing additional symptoms associated with the disease, users can strengthen their understanding and awareness of their own medical condition. This empowers individuals to make informed decisions regarding their health, seek appropriate medical attention, and take necessary precautions.
 
-#Install dependencies
+# Install dependencies
+
 Run:
 `pip install -r requirements.txt`
 
-#Run the bot
+# Run the bot
 Use `rasa train` to train a model.
 
 Then to talk to the bot, run:
@@ -21,7 +22,7 @@ Then to talk to the bot, run:
 
 Note that --debug mode will produce a lot of output meant to help you understand how the bot is working under the hood. To simply talk to the bot, you can remove this flag.
 
-#Overview of the files
+# Overview of the files
 
 data/nlu.yml - contains NLU training data
 
