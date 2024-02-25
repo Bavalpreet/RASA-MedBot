@@ -8,6 +8,52 @@ Moving into the second phase, MediBot engages users by prompting them to input t
 
 This unique approach assists users in gaining further confidence and certainty about their health conditions. By reading the chatbot's responses and discovering that they are experiencing additional symptoms associated with the disease, users can strengthen their understanding and awareness of their own medical condition. This empowers individuals to make informed decisions regarding their health, seek appropriate medical attention, and take necessary precautions.
 
+
+## Table of Contents
+
+- [Actions](#actions)
+- [Data](#data)
+- [Tests](#tests)
+- [Configuration](#configuration)
+- [Credentials](#credentials)
+- [Domain](#domain)
+- [Endpoints](#endpoints)
+- [README](#readme)
+
+## Actions
+
+The `actions` directory contains custom action files for the Rasa chatbot. These files define custom actions that the chatbot can perform.
+
+## Data
+
+The `data` directory contains training data for the Rasa chatbot. This includes NLU training data and stories for dialogue management.
+
+## Tests
+
+The `tests` directory contains test cases for the Rasa chatbot. These tests ensure that the chatbot behaves as expected in different scenarios.
+
+## Configuration
+
+The `config.yml` file contains the configuration settings for the Rasa chatbot. This includes pipeline configuration for natural language understanding (NLU) and dialogue management.
+
+## Credentials
+
+The `credentials.yml` file contains credentials for external services used by the Rasa chatbot. This may include credentials for APIs or databases.
+
+## Domain
+
+The `domain.yml` file defines the domain of the Rasa chatbot. It includes intents, entities, actions, responses, and templates used by the chatbot.
+
+## Endpoints
+
+The `endpoints.yml` file specifies the endpoints for the Rasa chatbot. This includes endpoints for connecting to external services such as a tracker store or event broker.
+
+## README
+
+The `README.md` file provides information about the Rasa chatbot project, its structure, and how to use and contribute to it.
+
+
+
 # Install dependencies
 
 Run:
